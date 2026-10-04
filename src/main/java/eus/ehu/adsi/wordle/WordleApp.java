@@ -7,7 +7,7 @@ public class WordleApp {
         SwingUtilities.invokeLater(() -> {
             Dictionary dictionary = new Dictionary();
             Game game = new Game(dictionary);
-            WordleFrame frame = new WordleFrame(game);
+            WordleFramePalabraDiaria frame = new WordleFramePalabraDiaria(game);
             frame.setVisible(true);
         });
     }
